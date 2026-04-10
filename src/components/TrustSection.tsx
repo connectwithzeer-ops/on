@@ -1,12 +1,12 @@
 import { ShieldCheck, Star, MapPin, MessageCircle, Scale, Lock } from "lucide-react";
 
 const items = [
-  { icon: ShieldCheck, title: "CNIC Verified Providers", desc: "Har provider ki identity verified hoti hai" },
-  { icon: Star, title: "Star Rating System", desc: "Real reviews aur ratings se best choose karo" },
-  { icon: MapPin, title: "Live Job Tracking", desc: "Provider ka real-time location dekho" },
-  { icon: MessageCircle, title: "In-App Chat", desc: "Number share kiye bina baat karo" },
-  { icon: Scale, title: "Dispute Resolution", desc: "Koi masla ho toh hum help karte hain" },
-  { icon: Lock, title: "Secure Payment", desc: "Payment tab release hoti hai jab kaam ho jaaye" },
+  { icon: ShieldCheck, title: "CNIC Verified Providers", desc: "Every provider's identity is verified" },
+  { icon: Star, title: "Star Rating System", desc: "Choose the best based on real reviews and ratings" },
+  { icon: MapPin, title: "Live Job Tracking", desc: "Track your provider's real-time location" },
+  { icon: MessageCircle, title: "In-App Chat", desc: "Communicate without sharing personal numbers" },
+  { icon: Scale, title: "Dispute Resolution", desc: "We help resolve any issues that arise" },
+  { icon: Lock, title: "Secure Payment", desc: "Payment is released only when the job is complete" },
 ];
 
 const TrustSection = () => (
@@ -14,7 +14,7 @@ const TrustSection = () => (
     <div className="container space-y-10">
       <div className="text-center">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground">
-          Aapki Safety Humari Zimmedari
+          Your Safety Is Our Responsibility
         </h2>
       </div>
 

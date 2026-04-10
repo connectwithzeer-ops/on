@@ -7,10 +7,10 @@ const DownloadCTA = () => (
     <div className="container grid md:grid-cols-2 gap-10 items-center">
       <div className="space-y-6">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-card">
-          Abhi Download Karo — <span className="text-primary">Bilkul Free</span>
+          Download Now — <span className="text-primary">Completely Free</span>
         </h2>
         <p className="text-card/70 text-lg">
-          Pakistan ka sabse fair service marketplace. Apni marzi ka price set karo, verified providers se kaam karwao.
+          Pakistan's fairest service marketplace. Set your own price and get work done by verified providers.
         </p>
         <div className="flex flex-wrap gap-3">
           <Button size="lg" className="rounded-full gap-2 px-8 font-semibold">

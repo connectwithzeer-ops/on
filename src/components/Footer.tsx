@@ -4,17 +4,15 @@ const Footer = () => (
   <footer className="bg-foreground border-t border-border pt-14 pb-8">
     <div className="container">
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
-        {/* Brand */}
         <div className="space-y-3">
           <span className="font-heading text-2xl font-bold text-card">
             on<span className="text-primary">Work</span>
           </span>
           <p className="text-card/60 text-sm">
-            Aapka Kaam, Aapki Bid. Pakistan ka pehla bidding-based service marketplace.
+            Your Work, Your Bid. Pakistan's first bidding-based service marketplace.
           </p>
         </div>
 
-        {/* Company */}
         <div className="space-y-3">
           <h4 className="font-heading font-semibold text-card">Company</h4>
           {[
@@ -28,7 +26,6 @@ const Footer = () => (
           ))}
         </div>
 
-        {/* Services */}
         <div className="space-y-3">
           <h4 className="font-heading font-semibold text-card">Top Services</h4>
           {["Plumbing", "Electrician", "Cleaning", "Painting", "AC Services", "Carpentry", "Shifting", "Appliance Repair"].map((s) => (
@@ -36,7 +33,6 @@ const Footer = () => (
           ))}
         </div>
 
-        {/* Legal */}
         <div className="space-y-3">
           <h4 className="font-heading font-semibold text-card">Legal</h4>
           <Link to="/privacy" className="block text-sm text-card/60 hover:text-primary transition-colors">Privacy Policy</Link>

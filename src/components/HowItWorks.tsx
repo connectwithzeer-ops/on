@@ -1,11 +1,11 @@
 import { FileText, Inbox, Star, CheckCircle, Banknote } from "lucide-react";
 
 const steps = [
-  { icon: FileText, title: "Post karo", desc: "Apna kaam aur expected budget likho" },
-  { icon: Inbox, title: "Bids aati hain", desc: "Multiple providers apni offer dete hain" },
-  { icon: Star, title: "Compare karo", desc: "Rating, reviews aur price dekho" },
-  { icon: CheckCircle, title: "Hire karo", desc: "Best provider select karo" },
-  { icon: Banknote, title: "Pay karo", desc: "Kaam hone par payment karo" },
+  { icon: FileText, title: "Post Your Job", desc: "Describe your task and set your expected budget" },
+  { icon: Inbox, title: "Receive Bids", desc: "Multiple providers send you their offers" },
+  { icon: Star, title: "Compare", desc: "Check ratings, reviews and pricing" },
+  { icon: CheckCircle, title: "Hire", desc: "Select the best provider for your job" },
+  { icon: Banknote, title: "Pay Securely", desc: "Pay only after the work is done" },
 ];
 
 const HowItWorks = () => (
@@ -13,10 +13,10 @@ const HowItWorks = () => (
     <div className="container text-center space-y-12">
       <div>
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground">
-          Kaise Kaam Karta Hai?
+          How It Works
         </h2>
         <p className="text-muted-foreground mt-2 max-w-md mx-auto">
-          Sirf 5 simple steps mein apni service book karo
+          Book your service in just 5 simple steps
         </p>
       </div>
 

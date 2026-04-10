@@ -6,19 +6,19 @@ const types = [
   {
     label: "Customer",
     tagColor: "bg-primary text-primary-foreground",
-    features: ["Post request", "Set budget", "Compare bids", "Live tracking", "Secure pay"],
+    features: ["Post a request", "Set your budget", "Compare bids", "Live tracking", "Secure payment"],
     img: heroCleaning,
   },
   {
     label: "Service Provider",
     tagColor: "bg-foreground text-card",
-    features: ["CNIC verified", "Nearby jobs", "Bid karo", "Earn karo", "Withdraw easily"],
+    features: ["CNIC verified", "Nearby jobs", "Place your bid", "Earn money", "Easy withdrawals"],
     img: heroRepair,
   },
   {
     label: "Business / Admin",
     tagColor: "bg-primary/80 text-primary-foreground",
-    features: ["Manage users", "Verify providers", "Handle disputes", "Analytics", "Notifications"],
+    features: ["Manage users", "Verify providers", "Handle disputes", "Analytics dashboard", "Push notifications"],
     img: heroConstruction,
   },
 ];
@@ -28,7 +28,7 @@ const UserTypes = () => (
     <div className="container space-y-10">
       <div className="text-center">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground">
-          Teen Tarah ke Users, Ek Platform
+          Three User Types, One Platform
         </h2>
       </div>
 
