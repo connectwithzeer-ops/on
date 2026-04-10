@@ -5,19 +5,19 @@ const reviews = [
     name: "Ahmed R.",
     city: "Lahore",
     type: "Customer",
-    text: "Mujhe plumber chahiye tha aur 10 minute mein 5 bids aa gayi. Best price mili aur kaam bhi zabardast hua!",
+    text: "I needed a plumber and got 5 bids within 10 minutes. Got the best price and the work was excellent!",
   },
   {
     name: "Usman K.",
     city: "Karachi",
     type: "Provider",
-    text: "onWork se meri income double ho gayi hai. Rozana 3-4 jobs milti hain aur payment bhi time par aati hai.",
+    text: "My income has doubled since joining onWork. I get 3-4 jobs daily and payments are always on time.",
   },
   {
     name: "Fatima S.",
     city: "Islamabad",
     type: "Customer",
-    text: "Office ki deep cleaning karwani thi. onWork par trusted aur verified cleaner mila. Highly recommended!",
+    text: "Needed deep cleaning for my office. Found a trusted and verified cleaner on onWork. Highly recommended!",
   },
 ];
 
@@ -26,7 +26,7 @@ const Testimonials = () => (
     <div className="container space-y-10">
       <div className="text-center">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground">
-          Hamare Users Kya Kehte Hain
+          What Our Users Say
         </h2>
       </div>
 

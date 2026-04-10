@@ -28,7 +28,7 @@ const ServicesCategories = () => (
           100+ Services, 14 Categories
         </h2>
         <p className="text-muted-foreground mt-2 max-w-lg mx-auto">
-          Ghar ke chote kaam se le kar bade business workforce tak — sab kuch ek app mein
+          From small household tasks to large business workforce needs — everything in one app
         </p>
       </div>
 
