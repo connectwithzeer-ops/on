@@ -9,6 +9,10 @@ import HowItWorksPage from "./pages/HowItWorksPage.tsx";
 import Providers from "./pages/Providers.tsx";
 import Cities from "./pages/Cities.tsx";
 import Contact from "./pages/Contact.tsx";
+import About from "./pages/About.tsx";
+import Blog from "./pages/Blog.tsx";
+import Privacy from "./pages/Privacy.tsx";
+import Terms from "./pages/Terms.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -26,6 +30,10 @@ const App = () => (
           <Route path="/providers" element={<Providers />} />
           <Route path="/cities" element={<Cities />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
