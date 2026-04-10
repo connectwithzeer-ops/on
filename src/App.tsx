@@ -8,6 +8,7 @@ import Services from "./pages/Services.tsx";
 import HowItWorksPage from "./pages/HowItWorksPage.tsx";
 import Providers from "./pages/Providers.tsx";
 import Cities from "./pages/Cities.tsx";
+import Contact from "./pages/Contact.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
