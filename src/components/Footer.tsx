@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="bg-foreground border-t border-border pt-14 pb-8">
     <div className="container">
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
         <div className="space-y-3">
-          <span className="font-heading text-2xl font-bold text-card">
-            on<span className="text-primary">Work</span>
-          </span>
+          <img src={logo} alt="OnWork" className="h-8 w-auto brightness-0 invert" />
           <p className="text-card/60 text-sm">
             Your Work, Your Bid. Pakistan's first bidding-based service marketplace.
           </p>
